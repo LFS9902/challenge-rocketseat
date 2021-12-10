@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(Wallpaper.png);
+    background-repeat: repeat-y ;
+    background-size: contain;
+}
+
+header{
+    color: aliceblue;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+main{
+    color: skyblue;
+    font-size: 1.15rem;
+    font-style: oblique;
+    margin: 3rem 5.5rem 0;
+    text-align: justify;
+}
+
+.main-title{
+    color: orangered;
+}
+
+.paragraphs{
+    margin-top: 0.8rem;
+}
+
+.form-inputs{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.input-button{
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.input-text::placeholder{
+    color: aliceblue;
+}
+
+.plataform{
+    margin: 2rem auto;
+}
+
+.plataform-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: lightgrey;
+    padding: 0.5rem;
+}
+
+.footer-link{
+    padding-left: 10px;
+}
+
+.footer-github{
+    height: 17px;
+}
